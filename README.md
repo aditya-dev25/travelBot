@@ -52,7 +52,7 @@ A travel-themed chatbot that uses the power of Gemini AI to provide insightful, 
 
 ## Screen Recording
 
-You can view a demo of the chatbot in action here: [Screen Recording]
+You can view a demo of the chatbot in action here:
 
 
 https://github.com/user-attachments/assets/e45427e0-2f8e-4884-9f77-d3d8cd8e493e
