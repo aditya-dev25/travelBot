@@ -52,11 +52,11 @@ A travel-themed chatbot that uses the power of Gemini AI to provide insightful, 
 
 ## Screen Recording
 
-You can view a demo of the chatbot in action here: [Screen Recording](travel-bot/public/images/demo.mp4)
+You can view a demo of the chatbot in action here: [Screen Recording]
 
-[![Watch]
-(https://github.com/aditya-dev25/travelBot/blob/main/travel-bot/public/images/landing_view.png)]
-(https://github.com/aditya-dev25/travelBot/blob/main/travel-bot/public/images/demo.mp4)
+
+https://github.com/user-attachments/assets/e45427e0-2f8e-4884-9f77-d3d8cd8e493e
+
 
 ## Technologies Used
 
