@@ -1,71 +1,142 @@
-body {
+/* Reset some default styles */
+* {
   margin: 0;
-  font-family: "Arial", sans-serif;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* Body styles */
+body {
+  font-family: 'Arial', sans-serif;
+  height: 100%;
+  background-image: url('https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=2021&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-image 2s ease-in-out; /* Smooth transition for background change */
+}
+
+/* App container styles */
 .app {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
-}
-
-.content {
-  background: rgba(0, 0, 0, 0.6);
-  border-radius: 15px;
-  padding: 20px;
+  flex-direction: column;
   text-align: center;
-  width: 90%;
-  max-width: 600px;
-  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  color: #fff;
 }
 
+/* Content container */
+.content {
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+  border-radius: 15px;
+  padding: 30px;
+  width: 70%; /* Makes the content box 70% of the screen width */
+  max-width: 800px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+}
+
+/* Heading styles */
 .title {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #ffdd00; /* Bright yellow for a vibrant travel look */
+}
+
+/* Form styles */
+.form {
   margin-bottom: 20px;
 }
 
-.form {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
+/* Textarea for user query */
 .query-box {
-  height: 100px;
-  border-radius: 10px;
+  width: 100%;
+  height: 150px;
   padding: 10px;
-  border: none;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  border: 2px solid #ffdd00;
+  background-color: #333;
+  color: #fff;
+  margin-bottom: 15px;
   resize: none;
-  font-size: 1rem;
 }
 
+/* Submit button styles */
 .submit-button {
-  padding: 10px 20px;
-  font-size: 1rem;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #ffdd00; /* Travel-themed bright color */
+  color: #333;
   border: none;
-  border-radius: 10px;
-  background: #ff7f50;
-  color: white;
+  border-radius: 8px;
   cursor: pointer;
-  transition: background 0.3s ease;
+  transition: background-color 0.3s;
+  width: 100%;
 }
 
 .submit-button:hover {
-  background: #ff6347;
+  background-color: #ffcc00; /* Slightly darker yellow on hover */
 }
 
+.submit-button.loading {
+  background-color: #ff9933; /* Different color when loading */
+  cursor: wait;
+}
+
+/* Response box container */
 .response-box {
-  margin-top: 20px;
-  text-align: left;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f0f0f0; /* Light gray background for a modern feel */
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Soft shadow for depth */
+  max-height: 200px;
+  overflow-y: auto;
 }
 
-pre {
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  background: rgba(255, 255, 255, 0.1);
-  padding: 10px;
+/* Response title */
+.response-box h2 {
+  font-family: 'Poppins', sans-serif; /* Trendy font */
+  font-weight: bold;
+  color: #ff9900; /* Vibrant orange to keep it travel-themed */
+  font-size: 1.8rem;
+  margin-bottom: 20px; /* Added margin for more space */
+  text-align: center; /* Ensures the title is left-aligned */
+}
+
+/* Response content (formatted HTML from the bot) */
+.response-content {
+  font-family: 'Poppins', sans-serif; /* Modern font */
+  font-weight: 300;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #333; /* Dark gray text for a fresh contrast */
+  text-align: left; /* Left-aligned text */
+}
+
+/* Custom scrollbar styling */
+.response-box::-webkit-scrollbar {
+  width: 8px; /* Adjust width of the scrollbar */
+}
+
+.response-box::-webkit-scrollbar-thumb {
+  background-color: #ff9900; /* Vibrant orange for the scrollbar thumb */
+  border-radius: 10px;
+  border: 2px solid #ccc; /* Light gray border around the thumb */
+}
+
+.response-box::-webkit-scrollbar-thumb:hover {
+  background-color: #ffcc00; /* Hover color for the scrollbar thumb */
+}
+
+.response-box::-webkit-scrollbar-track {
+  background: #e0e0e0; /* Light gray track */
   border-radius: 10px;
 }
