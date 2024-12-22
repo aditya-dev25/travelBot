@@ -44,7 +44,7 @@ body {
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 20px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: #ffdd00; /* Bright yellow for a vibrant travel look */
 }
 
