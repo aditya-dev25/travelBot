@@ -48,7 +48,7 @@ A travel-themed chatbot that uses the power of Gemini AI to provide insightful, 
 
 ## Screenshots
 
-![App Screenshot](path_to_screenshot.jpg)
+![App Screenshot](travel-bot/public/images/landing_view.png)
 
 ## Screen Recording
 
