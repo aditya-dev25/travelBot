@@ -54,6 +54,10 @@ A travel-themed chatbot that uses the power of Gemini AI to provide insightful, 
 
 You can view a demo of the chatbot in action here: [Screen Recording](travel-bot/public/images/demo.mp4)
 
+[![Watch]
+(https://github.com/aditya-dev25/travelBot/blob/main/travel-bot/public/images/landing_view.png)]
+(https://github.com/aditya-dev25/travelBot/blob/main/travel-bot/public/images/demo.mp4)
+
 ## Technologies Used
 
 - **React**: For building the user interface.
