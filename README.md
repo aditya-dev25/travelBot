@@ -23,6 +23,16 @@ A travel-themed chatbot that uses the power of Gemini AI to provide insightful, 
 3. **Response Display**: The response is formatted with HTML for bold, italics, and links, and is shown in the response box.
 4. **Background Transitions**: The background images cycle every 30 seconds with a smooth fade-in/out transition.
 
+## Demo
+
+![App Screenshot](travel-bot/public/images/landing_view.png)
+
+
+#### You can view a demo of the chatbot in action here:
+
+https://github.com/user-attachments/assets/e45427e0-2f8e-4884-9f77-d3d8cd8e493e
+
+
 ## Installation
 
 1. Clone the repository:
@@ -52,15 +62,6 @@ A travel-themed chatbot that uses the power of Gemini AI to provide insightful, 
     ```bash
     http://localhost:3000
     ```
-
-## Demo
-
-![App Screenshot](travel-bot/public/images/landing_view.png)
-
-
-### You can view a demo of the chatbot in action here:
-
-https://github.com/user-attachments/assets/e45427e0-2f8e-4884-9f77-d3d8cd8e493e
 
 
 ## License
