@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Travel Chatbot
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A travel-themed chatbot that uses the power of Gemini AI to provide insightful, AI-generated responses for your travel queries. It utilizes dynamic background images, smooth transitions, and formatted responses to create a visually appealing and interactive user experience.
 
-## Available Scripts
+## Features
+- **AI-Powered**: Built using **Gemini AI** to answer travel-related questions.
+- **Dynamic Backgrounds**: Background images change periodically, with smooth transitions.
+- **Formatted Responses**: Responses from the AI are displayed with proper HTML formatting (bold, italics, links, etc.).
+- **Responsive Design**: The app adapts to various screen sizes, making it suitable for desktop and mobile use.
+- **Loading State**: Displays a loading message while the AI is processing your query.
 
-In the project directory, you can run:
+## Installation
 
-### `npm start`
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/travel-chatbot.git
+    ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Install dependencies:
+    ```bash
+    cd travel-chatbot
+    npm install
+    ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. Set up your API key for Gemini AI:
+    - Create a `.env` file at the root of the project.
+    - Add your API key:
+      ```
+      REACT_APP_GEMINI_API_KEY=your-api-key-here
+      ```
 
-### `npm test`
+4. Run the application:
+    ```bash
+    npm start
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. Open the app in your browser:
+    ```bash
+    http://localhost:3000
+    ```
 
-### `npm run build`
+## How It Works
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **User Input**: Enter a travel-related query in the text box and click "Ask Me!".
+2. **AI Processing**: The query is sent to the Gemini AI model (`gemini-1.5-flash-latest`), which generates a response based on the input.
+3. **Response Display**: The response is formatted with HTML for bold, italics, and links, and is shown in the response box.
+4. **Background Transitions**: The background images cycle every 30 seconds with a smooth fade-in/out transition.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![App Screenshot](path_to_screenshot.jpg)
 
-### `npm run eject`
+## Screen Recording
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+You can view a screen recording of the chatbot in action here: [Screen Recording](path_to_screen_recording.mp4)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technologies Used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **React**: For building the user interface.
+- **Gemini AI**: For generating travel-related responses.
+- **CSS**: Custom styling for a clean, modern look.
+- **Unsplash API**: For dynamically changing background images.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contributing
 
-## Learn More
+Feel free to fork this project, make your improvements, and submit pull requests. You can also create issues for any bugs or feature requests.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the MIT License.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
