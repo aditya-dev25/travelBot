@@ -9,6 +9,20 @@ A travel-themed chatbot that uses the power of Gemini AI to provide insightful, 
 - **Responsive Design**: The app adapts to various screen sizes, making it suitable for desktop and mobile use.
 - **Loading State**: Displays a loading message while the AI is processing your query.
 
+## Technologies Used
+
+- **React**: For building the user interface.
+- **Gemini AI**: For generating travel-related responses.
+- **CSS**: Custom styling for a clean, modern look.
+- **Unsplash API**: For dynamically changing background images.
+
+## How It Works
+
+1. **User Input**: Enter a travel-related query in the text box and click "Ask Me!".
+2. **AI Processing**: The query is sent to the Gemini AI model (`gemini-1.5-flash-latest`), which generates a response based on the input.
+3. **Response Display**: The response is formatted with HTML for bold, italics, and links, and is shown in the response box.
+4. **Background Transitions**: The background images cycle every 30 seconds with a smooth fade-in/out transition.
+
 ## Installation
 
 1. Clone the repository:
@@ -39,13 +53,6 @@ A travel-themed chatbot that uses the power of Gemini AI to provide insightful, 
     http://localhost:3000
     ```
 
-## How It Works
-
-1. **User Input**: Enter a travel-related query in the text box and click "Ask Me!".
-2. **AI Processing**: The query is sent to the Gemini AI model (`gemini-1.5-flash-latest`), which generates a response based on the input.
-3. **Response Display**: The response is formatted with HTML for bold, italics, and links, and is shown in the response box.
-4. **Background Transitions**: The background images cycle every 30 seconds with a smooth fade-in/out transition.
-
 ## Screenshots
 
 ![App Screenshot](travel-bot/public/images/landing_view.png)
@@ -57,17 +64,6 @@ You can view a demo of the chatbot in action here:
 
 https://github.com/user-attachments/assets/e45427e0-2f8e-4884-9f77-d3d8cd8e493e
 
-
-## Technologies Used
-
-- **React**: For building the user interface.
-- **Gemini AI**: For generating travel-related responses.
-- **CSS**: Custom styling for a clean, modern look.
-- **Unsplash API**: For dynamically changing background images.
-
-## Contributing
-
-Feel free to fork this project, make your improvements, and submit pull requests. You can also create issues for any bugs or feature requests.
 
 ## License
 
