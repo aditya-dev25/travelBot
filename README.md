@@ -2,6 +2,7 @@
 
 A travel-themed chatbot that uses the power of Gemini AI to provide insightful, AI-generated responses for your travel queries. It utilizes dynamic background images, smooth transitions, and formatted responses to create a visually appealing and interactive user experience.
 \
+\
 This project was prepared using a No Code approach, leveraging generative AI tools like ChatGPT and GeminiAI for rapid development and implementation.
 
 ## Features
