@@ -45,7 +45,7 @@ https://github.com/user-attachments/assets/e45427e0-2f8e-4884-9f77-d3d8cd8e493e
     ```
 
 2. Install dependencies:
-    ```bash
+    ```
     cd travel-chatbot
     npm install
     ```
@@ -58,12 +58,12 @@ https://github.com/user-attachments/assets/e45427e0-2f8e-4884-9f77-d3d8cd8e493e
       ```
 
 4. Run the application:
-    ```bash
+    ```
     npm start
     ```
 
 5. Open the app in your browser:
-    ```bash
+    ```
     http://localhost:3000
     ```
 
