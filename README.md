@@ -36,38 +36,6 @@ This project was prepared using a No Code approach, leveraging generative AI too
 https://github.com/user-attachments/assets/e45427e0-2f8e-4884-9f77-d3d8cd8e493e
 
 
-
-## Installation
-
-1. Clone the repository:
-    ```
-    git clone https://github.com/aditya-dev25/travel-chatbot.git
-    ```
-
-2. Install dependencies:
-    ```
-    cd travel-chatbot
-    npm install
-    ```
-
-3. Set up your API key for Gemini AI:
-    - Create a `.env` file at the root of the project.
-    - Add your API key:
-      ```
-      REACT_APP_GEMINI_API_KEY=your-api-key-here
-      ```
-
-4. Run the application:
-    ```
-    npm start
-    ```
-
-5. Open the app in your browser:
-    ```
-    http://localhost:3000
-    ```
-
-
 ## License
 
 This project is licensed under the MIT License.
