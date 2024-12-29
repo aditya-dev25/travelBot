@@ -36,11 +36,12 @@ This project was prepared using a No Code approach, leveraging generative AI too
 https://github.com/user-attachments/assets/e45427e0-2f8e-4884-9f77-d3d8cd8e493e
 
 
+
 ## Installation
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/travel-chatbot.git
+    git clone https://github.com/aditya-dev25/travel-chatbot.git
     ```
 
 2. Install dependencies:
