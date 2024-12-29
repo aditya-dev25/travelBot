@@ -28,10 +28,7 @@ This project was prepared using a No Code approach, leveraging generative AI too
 
 ## Demo
 
-![App Screenshot](travel-bot/public/images/landing_view.png)
-
-
-#### You can view a demo of the chatbot in action here:
+##### You can view a demo of the chatbot in action here:
 
 https://github.com/user-attachments/assets/e45427e0-2f8e-4884-9f77-d3d8cd8e493e
 
